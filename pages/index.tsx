@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                   <a href="#" className="px-2 py-2 font-semibold text-white rounded">
                     <div className="flex items-center justify-center gap-4 px-3 m-0">
                       <Image src={"/images/mail.svg"} width="24px" height="24px" />
-                      <span>Contact Us</span>
+                      <span className='text-xl'>Contact Us</span>
                     </div>
                   </a>
                 </li>
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                   <a href="#" className="px-2 py-2 font-semibold text-white rounded">
                     <div className="flex items-center justify-center gap-4 px-3 m-0">
                       <Image src={"/images/direc.svg"} width="24px" height="24px" />
-                      <span>Get Directions</span>
+                      <span className='text-xl'>Get Directions</span>
                     </div>
                   </a>
                 </li>
