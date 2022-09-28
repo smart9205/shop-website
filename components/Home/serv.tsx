@@ -7,7 +7,7 @@ const ServiceSection = () => {
                 <span className="text-white font-bold text-xl sm:text-2xl">
                     Address
                 </span>
-                <div className="bg-green-600 hover:bg-green-800 my-5 px-3 py-2 z-10 rounded-lg">
+                <div className="bg-lime-600 hover:bg-lime-400 my-5 px-3 py-2 z-10 rounded-lg">
                     <Link href={"https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9"}>
                         <span className="text-white uppercase font-bold">Get Directions</span>
                     </Link>
