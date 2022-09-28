@@ -11,7 +11,7 @@ const IntroSection = () => {
                 <div className="sm:h-32"></div>
                 <span className="font-bold text-5xl text-white text-center leading-tight">The Holy Cross Brewing Society</span>
                 <span className="text-white mt-5 text-xl font-bold">Cafe in Frankfurt</span>
-                <div className="bg-lime-600 hover:bg-lime-400 my-5 px-6 py-2 z-10 rounded-lg">
+                <div className="bg-gray-600 hover:bg-gray-400 my-5 px-6 py-2 z-10 rounded-lg">
                     <Link href={"https://instagram.com/the_holy_cross_brewing_society?igshid=YmMyMTA2M2Y="}>
                         <span className="text-white uppercase font-bold">Contact Us</span>
                     </Link>
