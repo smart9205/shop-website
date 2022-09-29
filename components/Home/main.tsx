@@ -16,6 +16,7 @@ const MainSection = () => {
                 <div className="block sm:hidden">
                     <Image src={"/images/smallMap2.png"} width="1000px" height="400px" objectFit="cover" />
                 </div>
+
             </a>
         </div>
     )
