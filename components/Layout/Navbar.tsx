@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between mx-auto max-w-7xl">
                     <div className='flex justify-center items-center gap-2'>
                         <Image src={"/images/logo.jpg"} width="60px" height="60px" />
-                        <a href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className='max-w-[260px] md:max-w-full'>
+                        <a target="_blank" href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className='max-w-[260px] md:max-w-full'>
                             <span className="text-xl font-extrabold text-white">The Holy Cross Brewing Society</span>
                         </a>
                     </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className="px-2 py-2 font-semibold text-white rounded">
+                                <a target="_blank" href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className="px-2 py-2 font-semibold text-white rounded">
                                     <div className="flex items-center justify-center gap-4 px-3 m-0">
                                         <Image src={"/images/direc.svg"} width="32px" height="32px" />
                                         <span className='text-xl'>Get Directions</span>
@@ -65,7 +65,7 @@ const Navbar = () => {
                                         </a>
                                     </li>
                                     <li className="m-0 bg-transparent ">
-                                        <a href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className="px-2 py-2 font-semibold text-white rounded">
+                                        <a target="_blank" href="https://maps.app.goo.gl/cRLEXB9Qa1EHt6dc9" className="px-2 py-2 font-semibold text-white rounded">
                                             <div className="flex items-center justify-center gap-4 px-3 m-0">
                                                 <Image src={"/images/direc.svg"} width="32px" height="32px" />
                                                 <span className='text-xl'>Get Directions</span>
