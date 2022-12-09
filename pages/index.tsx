@@ -1,23 +1,19 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import IntroSection from '../components/Home/intro'
-import MainSection from '../components/Home/main'
-import ServiceSection from '../components/Home/serv'
-import Footer from '../components/Layout/Footer'
-import Navbar from '../components/Layout/Navbar'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+// Layout Components
+import Footer from "../components/Layout/footer";
+import Header from "../components/Layout/header";
 
-const Home: NextPage = () => {
-  return (
-    <div>
-      <Navbar />
-      <IntroSection />
-      <MainSection />
-      <ServiceSection />
-      <Footer />
-    </div>
-  )
-}
+// Page Components
+import Home from "./home";
 
-export default Home
+const Main: NextPage = () => {
+    return (
+        <div>
+            <Header />
+            <Home />
+            <Footer />
+        </div>
+    );
+};
+
+export default Main;
