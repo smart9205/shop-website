@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import { HiOutlineMail, HiOutlineThumbUp } from "react-icons/hi";
 
 const Header = () => {
     return (
@@ -12,22 +12,18 @@ const Header = () => {
                         rel="noopener noreferrer"
                         className="text-[#88b06a] text-2xl font-bold"
                     >
-                        Corvo Coffee
+                        Hideaway Coffee
                     </a>
                 </div>
                 <ul className="hidden space-x-4 sm:inline-flex pr-2">
                     <li>
                         <a
                             href="#"
-                            className="px-2 py-2 text-[#88b06a] rounded"
+                            className="px-2 py-2 text-[#88b06a] rounded hover:text-gray-600"
                         >
-                            <div className="flex items-center justify-center gap-2">
-                                <Image
-                                    src={"/images/mail.svg"}
-                                    width="20px"
-                                    height="20px"
-                                />
-                                <span className="text-xl">Contact Us</span>
+                            <div className="flex items-center justify-center gap-2 ">
+                                <HiOutlineThumbUp size={"22px"} />
+                                <span className="text-xl">About Us</span>
                             </div>
                         </a>
                     </li>
@@ -36,15 +32,11 @@ const Header = () => {
                             target="_blank"
                             href="#"
                             rel="noopener noreferrer"
-                            className="px-2 py-2 text-[#88b06a] rounded"
+                            className="px-2 py-2 text-[#88b06a] rounded hover:text-gray-600"
                         >
                             <div className="flex items-center justify-center gap-2">
-                                <Image
-                                    src={"/images/direc.svg"}
-                                    width="20px"
-                                    height="20px"
-                                />
-                                <span className="text-xl">Get Directions</span>
+                                <HiOutlineMail size={"22px"} />
+                                <span className="text-xl">Find us</span>
                             </div>
                         </a>
                     </li>
