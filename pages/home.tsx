@@ -3,17 +3,14 @@ import Image from "next/image";
 
 const Home = () => {
     return (
-        <div className="container mx-auto">
+        <>
             <div className="flex flex-col-reverse md:flex-col">
                 <div className="flex flex-col justify-center items-center text-center">
                     <h1 className="font-sans font-extrabold text-6xl text-[#88b06a] mt-[20px] md:mt-[70px] p-2">
-                        Corvo Coffee
+                        Hideaway Coffee
                     </h1>
-                    <span className="text-[#88b06a] text-xl mt-[20px]">
-                        The Holy Cross Brewing Society
-                    </span>
-                    <span className="text-[#88b06a] text-xl mb-[20px]">
-                        Cafe in Frankfurt
+                    <span className="text-black text-xl my-[20px]">
+                        Cafe in London
                     </span>
                     <button className="bg-[#88b06a] px-[54px] py-[18px] text-white">
                         CONTACT US
@@ -76,19 +73,19 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="flex-1 text-black">
-                    <p className="font-bold text-xl sm:text-2xl">
+                    <h1 className="font-bold text-lg sm:text-xl">
                         Business Hours
-                    </p>
-                    <p className="sm:text-xl">Mon: 9:00-18:00</p>
-                    <p className="sm:text-xl">Tue: 9:00-18:00</p>
-                    <p className="sm:text-xl">Wed: 9:00-18:00</p>
-                    <p className="sm:text-xl">Thu: 9:00-18:00</p>
-                    <p className="sm:text-xl">Fri: 9:00-18:00</p>
-                    <p className="sm:text-xl">Sat: 10:00-18:00</p>
-                    <p className="sm:text-xl">Sun: 10:00-18:00</p>
+                    </h1>
+                    <p className="sm:text-md">Monday: 8:00 am – 4:00 pm</p>
+                    <p className="sm:text-md">Tuesday: 8:00 am – 4:00 pm</p>
+                    <p className="sm:text-md">Wednesday: 8:00 am – 4:00 pm</p>
+                    <p className="sm:text-md">Thursday: 8:00 am – 4:00 pm</p>
+                    <p className="sm:text-md">Friday: 8:00 am – 4:00 pm</p>
+                    <p className="sm:text-md">Saturday: 10:00 am - 4:00 pm</p>
+                    <p className="sm:text-md">Sunday: closed</p>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
